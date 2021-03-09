@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	var answer = parseInt(Math.random() * 100); // генерация случаных целых чисел
+	var userAnswer = +prompt("Угадайте число от 0 до 100 =)");
+	var maxTryCount = 2;
+
+	for(var tryCount = 1; tryCount < maxTryCount; tryCount++){
+		if(userAnswer == answer){
+			alert("Вы угадали!");
+			break;
+		} else if(userAnswer > answer){
+			alert("Слишком больше число.");
+		} else if(userAnswer < answer){
+			alert("Слишком маленькое число.");
+		}
+		
+		userAnswer = +prompt("Попробуйте еще раз. Введите число от 1 до 100.\n У вас осталось " + (maxTryCount - tryCount) + " попыток.");
+	}
+
+	if(tryCount = maxTryCount)
+		alert("Вы проиграли!")
+
+	alert("Правильный ответ: " + answer);
+
+</script>
