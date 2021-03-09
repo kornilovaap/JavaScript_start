@@ -7,7 +7,7 @@
 # [3.Сумма чисел.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/sum.html)  
 Посчитать сумму чисел от 1 до n.   
 
-# [4.Угадай число]() 
+# [4.Угадай число](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game.html) 
 Угадать число от 0 до 100 за 7 попыток
     
 
