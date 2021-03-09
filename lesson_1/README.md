@@ -1,3 +1,7 @@
+# [Hello, world!](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_1/hello.html)
+
+# [Plus or minus or divide](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_1/calculate.html)
+
 # [1. Конвертер валют.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_1/currency_converter.html)
 Программа хранит в двух переменных курс доллара и евро. 
 В первой переменной у вас хранится стоимость одного евро в рублях, во второй - стоимость одного доллара в рублях. 
