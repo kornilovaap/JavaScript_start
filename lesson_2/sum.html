@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	do{
+		var user_input = +prompt("Введите положительное число");
+	} while(isNaN(user_input) || user_input < 0)
+
+
+	var sum = 0;
+	for(var i = 0; i <= user_input; i++){
+		sum += i; 
+	}
+	document.write("Сумма чисел от 1 до " + user_input + " >>> " + sum);
+
+	
+</script>
