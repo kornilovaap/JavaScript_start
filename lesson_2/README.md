@@ -1,7 +1,7 @@
 # [1.Поиск максимального значения.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/max.html)  
 Вывести на экран наибольшее значение из двух.  
    
-# [2.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/loops.html)  
+# [2.Вывод строки.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/loops.html)  
 Вывести строчку n раз.
 
 # [3.Сумма чисел.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/sum.html)  
