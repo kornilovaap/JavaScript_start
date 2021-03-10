@@ -7,11 +7,11 @@
 # [3.Сумма чисел.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/sum.html)  
 Посчитать сумму чисел от 1 до n.   
 
-# [4.Угадай число](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game.html) 
+# [4.Угадай число - 1 игрок](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game.html) 
 Угадать число от 0 до 100 за 7 попыток
     
 
-# [4.1]()    
+# [4.1Угадай число - 2 игрока](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game_two_users.html)    
 Дописать игру “Угадай число”:    
 a. Сделать игру с двумя игроками и бесконечным числом попыток. 
 b. Сделайте возможность выйти из игры по желанию одного из игроков.   
