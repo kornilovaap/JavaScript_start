@@ -25,4 +25,8 @@ d. (По желанию). В качестве верного ответа при
 # [6.Банковская программа.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/bank.html)  
 Пользователь вводит сумму вклада и процент, который будет начисляться ежегодно. 
 Отобразить размер вклада поочередно на ближайшие n лет.  
+    
+    
+# [7.Арифметическая прогрессия](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/arithmetic_progression.html)    
+Подсчитать сумму чисел от 10 до N с шагом 2 и вывести получившуюся сумму на экран.    
   
