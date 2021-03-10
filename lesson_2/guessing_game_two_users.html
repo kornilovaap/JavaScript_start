@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	var answer = parseInt(Math.random() * 100); // генерация случаных целых чисел
+
+	var playerNumber = 1; // номер игрока, который сейчас ходит
+
+	while(true){
+		
+		var userAnswer = prompt("Угадайте число от 0 до 100.\nХодит игрок " + playerNumber + ".\nДля выхода нажмите q.");
+
+		if (userAnswer == 'q')
+			break;
+
+		userAnswer = parseInt(userAnswer);
+
+		if(userAnswer == answer){
+			alert("Вы угадали! Победил игрок " + playerNumber + "\nПоздравляю!");
+			break;
+		} else if(userAnswer > answer){
+			alert("Слишком больше число.");
+		} else if(userAnswer < answer){
+			alert("Слишком маленькое число.");
+		}
+
+		if(playerNumber ==1){
+			playerNumber =2;
+		} else{
+			playerNumber =1;
+		}
+		
+	}
+
+	alert("Правильный ответ: " + answer);
+
+</script>
