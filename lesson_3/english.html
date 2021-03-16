@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>English</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var words = [
+		["wonderful","замечательный"],
+		["umbrella","зонтик"],
+		["brave","смелый"],
+		["soul","душа"],
+		["cute","милый"],
+		["liberty","свобода"],
+		["sweetheart","возлюбленная"],
+		["vacation","отпуск"],
+		["rhythm","ритм"],
+		["pigeon","голубь"],
+	];
+
+	dict = []
+	for (var i = 0; i != words.length; i++) {
+		dict.push(i+1 + ". " + words[i][0] + " - " + words[i][1] + "\n");
+	}
+	alert("Мы будем учить слова:\n\n" +  dict.join(""));
+	
+	while(words.length != 0){
+		var i = parseInt(Math.random() * words.length);  // вывод случайного i-того слова
+		var userTranslate = prompt("Как переводится слово: " + words[i][0]).toLowerCase();
+		if(userTranslate == words[i][1]){
+			alert("Правильно!");
+			words.splice(i, 1);
+
+		} else {
+			alert("Нет. Правильный ответ: " + words[i][1]);
+		}
+	}
+
+	alert("Поздравляю! Ты всё выучил!")
+
+
+</script>
+
+</body>
+</html>
