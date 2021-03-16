@@ -33,5 +33,13 @@ _________
 1. Цикл do while. 
 
 
-### [Урок 3: Массивы и функции.]()
+### [Урок 3: Массивы и функции.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/tree/main/lesson_3)
+1. Массивы.
+ 1. Многомерные массивы.
+1. Функции.
+ 1. Рекурсии.
+    
+     
+### [Урок 4: ](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/tree/main/lesson_4)     
+ 
   
