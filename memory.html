@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>Тренажёр памяти</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+    var numbers = [];
+
+    for(var i = 0; i < 5; i++){
+        var randomNumber = parseInt(Math.random() * 100);  // сгенерировали случайное двузначное число
+        numbers.push(randomNumber);
+    }
+
+    alert("Запомните числа и их порядок: " + numbers + ".\nУ вас будет 5 попыток. Удачи!");
+
+    var userAnswer = +prompt("1. Каким было первое число?");
+    if(userAnswer == numbers[0]){
+    	alert("Всё верно!");
+    } else {
+    	alert("Нет. Правильный ответ: " + numbers[0]);
+    }
+
+    userAnswer = +prompt("2. Каким было последнее число?");
+    if(userAnswer == numbers[ numbers.length - 1]){
+    	alert("Всё верно!");
+    } else {
+    	alert("Нет. Правильный ответ: " + numbers[ numbers.length - 1]);
+    }
+
+    for(i = 1; i < 4; i++){
+	    var n = parseInt(Math.random() * numbers.length);
+	    userAnswer = +prompt(i+2 + ". Каким было число под номером " + (n + 1) + "?");
+	    if(userAnswer == numbers[n]){
+	    	alert("Всё верно!");
+	    } else {
+	    	alert("Нет. Правильный ответ: " + numbers[n]);
+	    }
+	}
+
+	alert("До свидания!")
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
