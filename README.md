@@ -15,6 +15,7 @@ _________
  - [изучение английских слов](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/english.html)    
  - [тренажёр памяти](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/memory.html)    
  - и многое другое    
+       
 Удачи 😃       
 _________
 
