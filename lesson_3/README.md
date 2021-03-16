@@ -1,6 +1,9 @@
 # [1. Тренажёр памяти](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/memory.html)    
 Программа создает раномный список из n двухзначных чисел, выводит их на экран и предлагает пользователю запомнить его.    
-Пользователь должен вспомнить первое, последнее число и число с произвольным порядковым номером.
+Пользователь должен вспомнить первое, последнее число и число с произвольным порядковым номером.    
+
+# [1.1. Тренажёр памяти](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/edit/main/lesson_3/memory_func.html)
+То же самое, но решение через функции.    
     
 # [2. Изучение английских слов](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/english.html)     
 Пользователю предлагаются английские слова и он должен вспомнить их перевод.    
