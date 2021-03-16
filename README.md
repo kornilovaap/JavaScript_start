@@ -11,7 +11,7 @@ _________
  - угадайку [для одного](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game.html) или [двух игроков](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game_two_users.html),    
  - полезные калькуляторы     
  - [обучение слепой печати]()!
- - [тренажёр памяти]()    
+ - [тренажёр памяти](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/memory.html)    
  - и многое другое 
 Удачи 😃      
 :information_source:     
