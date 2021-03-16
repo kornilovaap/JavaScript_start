@@ -7,6 +7,7 @@ _________
 :information_source:    
 Для запуска программы - скачате файл в формате .html и запустите через браузер     
 :information_source:    
+      
 Здесь вы найдете:    
  - [игры в загадки](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/riddles.html),     
  - угадайку [для одного](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game.html) или [двух игроков](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game_two_users.html),    
