@@ -1,7 +1,7 @@
 # JavaScript_GeekBrains.ru
 Самостоятельное изучение JS по курсу https://geekbrains.ru/courses/754
 
-Сертификат о прохождении курса https://geekbrains.ru/certificates/892026
+Мой сертификат о прохождении курса https://geekbrains.ru/certificates/892026
 
 _________
 :information_source:    
