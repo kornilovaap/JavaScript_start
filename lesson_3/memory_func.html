@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>Тренажёр памяти</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+    function compareAnswers(userAnswer, answer){
+        if(userAnswer == answer) {
+            alert("Верно!");
+        } else {
+            alert("Нет. Правильный ответ: " + numbers[0]);
+        }
+    }
+
+    function getRandomNumber(max){
+        var rand = Math.round(Math.random() * max);
+        return rand;
+    }
+
+    function getRandomNumberArray(length){
+        var arr = [];
+
+        for(var i = 0; i < length; i++){
+            var randomNumber = getRandomNumber(100);  // сгенерировали случайное двузначное число
+            arr.push(randomNumber);
+            
+        }
+
+        return arr;        
+    }
+   
+
+    var numbers = getRandomNumberArray(5);
+
+    alert("Привет!\nЭто программа для тренировки памяти.\nТебе будет предложен ряд чисел.\nЗапомни их значение и порядок.\n\nУ тебя будет 7 попыток.\n\nУдачи!")
+
+    alert("Запомни числа и их порядок:\n" + numbers.join(", ") + ".");
+
+    var userAnswer = +prompt("1. Каким было первое число?");
+    compareAnswers(userAnswer, numbers[0]);
+
+    userAnswer = +prompt("2. Каким было последнее число?");
+    compareAnswers(userAnswer, numbers[ numbers.length - 1]);
+    
+
+    for(i = 1; i < 6; i++){
+	    var n = getRandomNumber(numbers.length -1);
+	    userAnswer = +prompt(i+2 + ". Каким было число под номером " + (n + 1) + "?");
+	    compareAnswers(userAnswer, numbers[n]);
+	}
+
+	alert("До свидания!")
+
+
+
+
+</script>
+
+</body>
+</html>
