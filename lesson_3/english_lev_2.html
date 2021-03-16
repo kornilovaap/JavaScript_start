@@ -9,7 +9,7 @@
 
 	var easyWords= [
 			["wonderful","замечательный"],
-		/*	["umbrella","зонтик"],
+			["umbrella","зонтик"],
 			["brave","смелый"],
 			["soul","душа"],
 			["cute","милый"],
@@ -17,13 +17,13 @@
 			["sweetheart","возлюбленная"],
 			["vacation","отпуск"],
 			["rhythm","ритм"],
-			["pigeon","голубь"],*/
+			["pigeon","голубь"],
 		];
 
 
 	var hardWords = [
 		["Remuneration","вознаграждение"],
-	/*	["Provocatively","вызывающе"],
+		["Provocatively","вызывающе"],
 		["Pronunciation","произношение"],
 		["Prejudice","предубеждение"],
 		["Onomatopoeia","звукоподражание"],
@@ -31,11 +31,10 @@
 		["Hereditary","наследственный"],
 		["Anaesthetist","анестезиолог"],
 		["circumstances","обстоятельства"],
-		["consequence","результат"],*/
+		["consequence","результат"],
 	];
 
 	alert("Привет! Мы будем учить английские слова.\nЕсли ты вводишь правильный ответ, то слово больше не появится.\nЕсли ты вводишь неправильный ответ, то слово будет повторяться,\nпока ты его не запомнишь.\nВ программе два уровня, после прохождения первого уровня,\nты автоматически переходишь на более сложный второй уровень.\nУдачи!")
-
 
 	
 	function preview(dictionary){
@@ -66,13 +65,18 @@
 	preview(easyWords);
 	askForWords(easyWords);
 
-	alert("Поздравляю! Ты всё выучил!\nПереходим на следующий уровень!");
+	var nextLevel = prompt("Поздравляю! Ты всё выучил!\nПереходим на следующий уровень? (да/нет)").toLowerCase();
 
-	preview(hardWords);
-	askForWords(hardWords);
-
-	alert("Поздравляю!\nТы огромный молодец. Все уровни пройдены успешно!");
-
+	while (true){
+		if(nextLevel == 'да' || nextLevel == 'yes'){
+			preview(hardWords);
+			askForWords(hardWords);	
+			alert("Поздравляю!\nТы огромный молодец. Все уровни пройдены успешно!");
+		} else{
+			alert("До новых встреч.\nПока!");
+			break ;
+		}
+	break;}
 
 </script>
 
