@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>Загадки</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+
+	alert("Привет =)\nМы будем играть в загадки.\nВсего их будет 4.\n");
+	alert("Готов? Начинаем!");
+
+
+	function askRiddles(question, answer){
+		var userAnswer = prompt(question).toLowerCase();
+		for(var i = 0; i < answer.length; i++){
+			if (userAnswer == answer[i]){
+				alert("Правильно! Поздравляю!");
+				j++;
+				return;
+			} 
+		}
+		alert("Нет =(");
+	}
+
+	var j = 0  // для подсчета количества правильных ответов
+
+	askRiddles("Что можно увидеть с закрытыми глазами?", ["сон", "сновидение"]);
+	askRiddles("Какой болезнью не болеют на суше?", ["морской", "укус акулы"]);
+	askRiddles("На него ты можешь сесть, коль к столу позвали есть.", ["стул", "табуретка"]);
+	askRiddles("Два братца глядятся, а вместе не сойдутся.", ["пол и потолок", "потолок и пол", "пол потолок", "потолок пол"]);
+
+		
+	alert("Игра окончена. Правильных ответов: " + j);
+
+
+
+
+</script>
+
+</body>
+</html>
+    
