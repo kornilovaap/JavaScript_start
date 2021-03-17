@@ -72,24 +72,22 @@
 
 	// Делаем массив случайных чисел для функций С, D, F
 	function getRandomNumber(max){
-        var rand = Math.round(Math.random() * max);
-        return rand;
-    }
+		var rand = Math.round(Math.random() * max);
+		return rand;
+    	}
 
-    function getRandomNumberArray(length){
-        var arr = [];
-        for(var i = 0; i < length; i++){
-            var randomNumber = getRandomNumber(100);  // сгенерировали случайное двузначное число
-            arr.push(randomNumber);    
-        }
-        return arr;        
-    }
+    	function getRandomNumberArray(length){
+        	var arr = [];
+        	for(var i = 0; i < length; i++){
+            		var randomNumber = getRandomNumber(100);  // сгенерировали случайное двузначное число
+            	arr.push(randomNumber);    
+        	}
+        	return arr;        
+    	}
 
-    myArray = getRandomNumberArray(10);
+    	myArray = getRandomNumberArray(10);
 
 	alert("Массив чисел: " + myArray + "\nMax: " + fancC(myArray) + "\nMin: " + fancD(myArray) + "\nЧетные числа: " + fancF(myArray))
-
-
 
 
 </script>
