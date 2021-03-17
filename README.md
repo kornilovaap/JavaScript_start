@@ -12,7 +12,7 @@ _________
  - [игры в загадки](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/riddles.html),     
  - угадайку [для одного](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game.html) или [двух игроков](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_2/guessing_game_two_users.html),    
  - полезные калькуляторы     
- - [обучение слепой печати]()!
+ - [обучение слепой печати](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/typing.html)!
  - [изучение английских слов](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/english.html)    
  - [тренажёр памяти](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_3/memory.html)    
  - и многое другое    
