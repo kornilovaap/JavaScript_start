@@ -24,6 +24,7 @@
     	alert("Нет. Правильный ответ: " + numbers[0]);
     }
 
+	
     userAnswer = +prompt("2. Каким было последнее число?");
     if(userAnswer == numbers[ numbers.length - 1]){
     	alert("Всё верно!");
@@ -31,6 +32,7 @@
     	alert("Нет. Правильный ответ: " + numbers[ numbers.length - 1]);
     }
 
+	
     for(i = 1; i < 4; i++){
 	    var n = parseInt(Math.random() * numbers.length);
 	    userAnswer = +prompt(i+2 + ". Каким было число под номером " + (n + 1) + "?");
@@ -39,9 +41,9 @@
 	    } else {
 	    	alert("Нет. Правильный ответ: " + numbers[n]);
 	    }
-	}
+    }
 
-	alert("До свидания!")
+    alert("До свидания!")
 
 
 </script>
