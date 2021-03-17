@@ -2,19 +2,15 @@
 <script type="text/javascript">
 	
 	function factorial(n){
-
 		var result = 1;
 		for(var i = 1; i <= n; i++){
 			result = result * i;
 		}
-
 		return result;
-
 	}
 
 
 	function recursiveFactorial(n){
-
 		if(n == 0)
 			return 1;
 		else
@@ -24,7 +20,6 @@
 
 	var f = +prompt("От какого числа ищем факториал?");
 	alert("Факториал от " + f + " равен: " + factorial(f) + "\nДругим способом такой же результат: " + recursiveFactorial(f));
-
 
 
 </script>
