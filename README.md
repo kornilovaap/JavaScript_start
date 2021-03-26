@@ -41,7 +41,3 @@ _________
 1. Функции.
     1. Рекурсии.
     
-     
-### [Урок 4: ](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/tree/main/lesson_4)     
- 
-  
