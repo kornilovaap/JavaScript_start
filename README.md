@@ -1,4 +1,6 @@
-# JavaScript_GeekBrains.ru
+# JavaScript_start
+### Здесь начинается моё погружение в сферу IT           
+                
 Самостоятельное изучение JS по курсу https://geekbrains.ru/courses/754
 
 Мой сертификат о прохождении курса https://geekbrains.ru/certificates/892026
