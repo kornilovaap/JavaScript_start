@@ -1,6 +1,6 @@
 # [1. Hello, world!](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_1/hello.html)
     
-# [2. Plus or minus or divide](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_1/calculate.html)
+# [2. Мини-калькулятор](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_1/calculate.html)
     
 # [3. Конвертер валют.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/blob/main/lesson_1/currency_converter.html)
 Программа хранит в двух переменных курс доллара и евро. 
