@@ -46,3 +46,4 @@ _________
 ### [Урок 4: Разработка веб-сайта с играми.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/tree/main/lesson_4)
 1. HTML+CSS=САЙТ.
 1. Функции. 
+2. Мой собственный самописный сайт!
