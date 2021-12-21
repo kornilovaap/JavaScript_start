@@ -43,3 +43,6 @@ _________
 1. Функции.
     1. Рекурсии.
     
+### [Урок 4: Разработка веб-сайта с играми.](https://github.com/kornilovaap/JavaScript_GeekBrains.ru/tree/main/lesson_4)
+1. HTML+CSS=САЙТ.
+1. Функции. 
